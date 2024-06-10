@@ -7,7 +7,6 @@ pipeline {
             steps {
                 bat '''
                 mkdir testingPipeline
-                echo "Hi There" > testingPipeline\text.txt
                 '''
             }
         }
@@ -15,7 +14,6 @@ pipeline {
             steps {
                 bat '''
                 dir
-                type testingPipeline\text.txt
                 '''
             }
         }
