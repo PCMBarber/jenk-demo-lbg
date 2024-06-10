@@ -6,14 +6,14 @@ pipeline {
         stage('Make Folders and files') {
             steps {
                 bat '''
-                mkdir testingPipeline
+                echo "Stage 1"
                 '''
             }
         }
         stage('View') {
             steps {
                 bat '''
-                dir
+                echo "Stage 2"
                 '''
             }
         }
