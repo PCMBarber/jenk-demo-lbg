@@ -1,1 +1,1 @@
-echo "Hello Class"
+echo "A string"
